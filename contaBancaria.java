@@ -15,13 +15,20 @@ public class contaBancaria {
         double saldo = 1000;
         int opcoes = 0;
 
+        String nomeCliente = "Richard Freitas";
+        String tipoConta = "Corrente";
+
+        System.out.println("----------------------------------");
+        System.out.println("Nome do cliente: " + nomeCliente);
+        System.out.println("\nTipo de conta: " + tipoConta);
+        System.out.println("\n----------------------------------");
         while (true){
             System.out.println("\nEscolha uma opção: ");
             System.out.println("1. Consultar saldo.");
             System.out.println("2. Realizar transferência.");
             System.out.println("3. Receber transferência.");
             System.out.println("4. Sair.");
-
+            System.out.println("\n----------------------------------");
             opcoes = leitor.nextInt();
 
             switch (opcoes){
